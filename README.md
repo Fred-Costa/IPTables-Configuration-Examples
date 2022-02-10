@@ -57,6 +57,8 @@ iptables -t nat -A PREROUTING -i interface -j DNAT --to-destination X.X.X.X
 
 **********
 netfilter-persistent flush - clear memory and put all tables [filter, net, raw, mangle, security] em ACCEPT
+
 netfilter-persistent reload - Copy of /etc/iptables/rules.v4 for memory 
+
 netfilter-persistent save  - Use this command for saving in /etc/iptables/rules.v4 the FW rules who are in memory
 **********
