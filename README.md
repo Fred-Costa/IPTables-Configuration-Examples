@@ -10,7 +10,7 @@ iptables –P OUTPUT DROP
 iptables –P FORWARD DROP
 
 #
-**Para conseguir ter acesso a si mesmo** 
+**TO GAIN ACCESS TO YOURSELF** 
 
 iptables –A INPUT –i lo –j ACCEPT
 
